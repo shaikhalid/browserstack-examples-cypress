@@ -28,8 +28,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: set creds
         run: |
-          export BROWSERSTACK_USER=khalidshaikh_Cc8Pao
-          export BROWSERSTACK_KEY=QqmphGzp7RziVg4Sxaos
+          export BROWSERSTACK_USERNAME=khalidshaikh_Cc8Pao
+          export BROWSERSTACK_ACCESS_KEY=QqmphGzp7RziVg4Sxaos
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
