@@ -26,11 +26,14 @@ jobs:
       - uses: actions/checkout@v3
 
       # Runs a single command using the runners shell
-      - name: npm install
-        run: npm install
+      - name: set creds
+        run: |
+          export BROWSERSTACK_USER="khalidshaikh_Cc8Pao"
+          export BROWSERSTACK_KEY="QqmphGzp7RziVg4Sxaos"
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
+          npm install
           npm run bstack-single-default
           echo test, and deploy your project.
