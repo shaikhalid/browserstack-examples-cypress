@@ -14,8 +14,8 @@ on:
   workflow_dispatch:
 
 env:
-  BROWSERSTACK_USERNAME: khalidshaikh_Cc8Pao
-  BROWSERSTACK_ACCESS_KEY: QqmphGzp7RziVg4Sxaos
+  BROWSERSTACK_USERNAME: "your browserstack username"
+  BROWSERSTACK_ACCESS_KEY: "your browserstack access_key"
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
